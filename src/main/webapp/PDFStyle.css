@@ -1,0 +1,303 @@
+<!--
+@page { @top-right { content: "Page " counter(page) " of " counter(pages); } }
+
+
+.fsTitlePage 
+{
+margin-left: auto;
+margin-top: 50mm;
+margin-right: auto;
+page-break-after:always 
+} 
+ 
+.fsTitle
+{
+font-size: 42px;
+font-weight: bold;
+margin: 72px 0 4px 0;
+text-align:center;
+}
+
+BODY {
+      font-family: arial, helvetica, verdana, sans-serif;
+      background: #fff;
+      margin-top:0;
+      margin-bottom:0;
+      margin-right:0;
+      margin-left:0;
+    }
+.pubspace TD {
+	PADDING-LEFT: 8px; PADDING-BOTTOM: 20px
+}
+.headlineLinksCensus{
+	DISPLAY: none! important
+}
+.headlineCensus{
+	DISPLAY: none! important
+}
+
+.imglogoCensus
+{
+position: absolute;
+ top: 4mm; 
+ left: 5mm; 
+ width:70mm;
+height:20mm;
+}
+input
+{
+display:none;
+}
+#heading { position: absolute;
+ top: 7mm; 
+ left: 38mm; 
+ font-weight: bold;
+ font-size: 16pt;
+ font-family: arial, helvetica, sans-serif; 
+ color: #FFFFFF; }
+#printspace, .imgGraph
+{
+	DISPLAY: block! important;
+	page-break-before:always;
+	
+}
+.footnote
+{
+		page-break-after:always;
+	
+}
+#tabsJ
+{
+	DISPLAY: none! important
+}
+#more
+{
+	DISPLAY: none! important
+}
+#bottom, #LineGraph, .pyramidgraph
+{
+	DISPLAY: none! important
+}
+TD#navbar {
+	DISPLAY: none! important
+}
+TD.navbar {
+	DISPLAY: none! important
+}
+.printclass{ 
+	DISPLAY: block! important
+}
+.tophead,.buttonClass,.plink{
+	DISPLAY: none! important
+}
+#filterNavigation{
+	DISPLAY: none! important
+}
+#contentFooter{
+	DISPLAY: none! important
+}
+#options{
+	DISPLAY: none! important
+}
+#contentFooter{
+	DISPLAY: none! important
+}
+.filterTable{
+	DISPLAY: none! important
+}
+.filterNavBorder{
+	DISPLAY: none! important
+}
+.filterSpan{
+	DISPLAY: none! important
+}
+#rightnavNoBorder{
+	DISPLAY: none! important
+}
+#rightNavTable{
+	DISPLAY: none! important
+}
+#legal{
+	DISPLAY: none! important
+}
+#mininav, #mininavexp{
+	DISPLAY: none! important
+}
+#headlineLinks{
+	DISPLAY: none! important
+}
+.headlineLinks{
+	DISPLAY: none! important
+}
+.headline{
+	DISPLAY: none! important
+}
+TR#crumb {
+	DISPLAY: none! important
+}
+TD#vcart {
+	DISPLAY: none! important
+}
+
+
+TD.stripe {
+	DISPLAY: none! important
+}
+
+TD#leftbody {
+	DISPLAY: none;
+}
+TD#rightnav {
+	DISPLAY: none;
+}
+TD.rightnav {
+	DISPLAY: none;
+}
+TD#right {
+	DISPLAY: none;
+}
+TD.right {
+	DISPLAY: none;
+}
+BUTTON {
+	DISPLAY: none! important
+}
+.pbuttonClass {
+	DISPLAY: none! important
+}
+BODY {
+	MARGIN: 5px
+}
+#notPrintimgLogo,.headlineTitle{DISPLAY: none! important;}
+#printimgLogo
+{
+	DISPLAY: block! important;
+	position: absolute;
+	top: 4mm; 
+ 	left: 5mm; 
+ 	width:23mm;
+	height:20mm;
+}
+#printImgTitle
+{
+DISPLAY: block! important;
+position: absolute;
+top: 10mm; 
+left: 35mm;
+width:122.5mm;
+height:8mm;
+}
+#printImgBg
+{
+DISPLAY: block! important;
+width:170.5mm;
+height:24mm;
+}
+.imglogo
+{
+position: absolute;
+ top: 4mm; 
+ left: 5mm; 
+ width:23mm;
+height:20mm;
+}
+.imgbg
+{
+width:100%;
+height:24mm;
+}
+.imgtitle
+{
+position: absolute;
+top: 10mm; 
+left: 35mm;
+width:122.5mm;
+height:8mm;
+}
+
+TABLE.stripe {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM: #777 1px solid
+}
+DIV#titlemain {
+	MARGIN: 2mm 0px 0px 0.5mm;
+	FONT: bold 16pt arial, helvetica, sans-serif;
+	text-indent: 1.5mm;
+}
+DIV#release {
+	FONT: 10pt arial, helvetica, sans-serif; 
+	text-indent:1.5mm;	
+}
+DIV#release SPAN.status {
+	FONT-SIZE: 13px
+}
+#activetab {	
+	font: bold 18pt arial, helvetica, sans-serif;
+	COLOR: #000; PADDING-TOP: 5mm; 
+	LETTER-SPACING: 0.05em;
+	TEXT-ALIGN: left;
+}
+
+#copyright {
+	MARGIN-TOP: 1em; FONT-SIZE: 10pt
+}
+#printlegal {
+	PADDING-RIGHT: 0.2em; 
+	PADDING-LEFT: 0.2em; 
+	FONT-SIZE: 75%; 
+	PADDING-BOTTOM: 0.2em; 
+	MARGIN: 0px 2px 2px; 
+	LINE-HEIGHT: 1.5em; 
+	PADDING-TOP: 0.2em; 
+	FONT-FAMILY: arial, helvetica, verdana, sans-serif
+}
+.icon {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; FLOAT: left; BORDER-LEFT: #808080 1px solid; MARGIN-RIGHT: 8px; BORDER-BOTTOM: #808080 1px solid
+}
+.screenClass
+{
+display:none !important
+}
+.linkButton
+{
+display:none;
+}
+.plink {
+ font-size: 80%; 
+ text-align:right;
+}
+.plink a
+{
+ color: #0000FF;;
+text-decoration:underline;
+
+}
+a { text-decoration: none; color: black; }
+
+a font { text-decoration: none; color: black; }
+
+.printallborder
+{
+ BORDER-BOTTOM: #777 1px solid;
+}
+#pubContainer {
+	font-family: arial, helvetica, verdana, sans-serif;
+	width: 95%; margin: 2.5%;
+}
+
+#pubContainer h1{position: relative; left: 15px; color: #00FF00;}
+ 
+#pubContainer h2 {position: relative; left: 10px; color: #FF0000;}
+
+ .nrpheadercell {height: 30px; vertical-align: middle;}
+  .nrplabelcell { width: 40%; }
+  .nrpuqcell { width: 5%; }
+ .nrpdatacell { width: 11%; padding-left:1em; }
+ .nrptitlecell {height: 46px; vertical-align: bottom; }
+ 
+#printcc {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; FONT-SIZE: 9px; PADDING-BOTTOM: 0.2em; MARGIN: 0px 2px 2px; LINE-HEIGHT: 1.5em; PADDING-TOP: 0.2em; FONT-FAMILY: verdana
+}
+
+
+
+-->
