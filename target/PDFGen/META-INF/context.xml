@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context>
-    <Resource name="jdbc/AcquireMobileDevDB" auth="Container" type="javax.sql.DataSource"
-        maxActive="100" maxIdle="30" maxWait="10000"
-        driverClassName="org.sqlite.JDBC"
-        url="jdbc:sqlite:/${catalina.home}/webapps/resteasy/WEB-INF/sql/AcquireMobileDevDB.db"/>
-</Context>
